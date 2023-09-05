@@ -21,3 +21,8 @@ if astronvim.default_colorscheme then
 end
 
 require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, false), true)
+
+-- other settings
+vim.opt.path:append '**'
+vim.o.wildmode = 'longest,list' --C-d: possible completions, C-n|p cycle results
+vim.o.wildignore = '*.o,*.a,__pycache__,bin,venv,data,dist,doc,build,outputs,*.pyc,*.parquet,*.pickle,*.pkl,*.npz'

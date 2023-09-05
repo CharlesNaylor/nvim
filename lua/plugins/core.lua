@@ -1,4 +1,5 @@
 return {
+  "eigenfoo/stan-vim",
   "nvim-lua/plenary.nvim",
   "echasnovski/mini.bufremove",
   { "AstroNvim/astrotheme", opts = { plugins = { ["dashboard-nvim"] = true } } },
